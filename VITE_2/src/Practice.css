@@ -1,0 +1,56 @@
+body {
+  background: #f0f0f0;
+  color: #333;
+  font-family: sans-serif;
+  /* 박스를 가로로 정렬해보기 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* . 은 class 선택자 # 은 id 선택자 {ex) div,p,button 태그 선택자}
+ex) box special box안의 special 요소들
+*/
+.box {
+  background: skyblue;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.special {
+  background: orange;
+}
+
+.text {
+  font-size: 28px;
+  line-height: 3;
+  color: #555;
+  margin: 20px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  /* 마우스 커서 변경 */
+  cursor: pointer;
+  /* 효과 전환 지연 시간 */
+  transition: 0.3s;
+}
+
+/* 마우스 올렸을 때 효과 */
+.btn:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.strikethrough {
+  text-decoration: line-through; /* 취소선을 긋는 핵심 속성 */
+  color: gray; /* 취소선이 적용될 때 색상을 흐리게 (선택 사항) */
+}
