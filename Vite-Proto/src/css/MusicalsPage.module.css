@@ -1,0 +1,216 @@
+/* 페이지 전체 컨테이너 */
+.musicalsPage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 30px;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+/* 페이지 타이틀 */
+.musicalsPage h2 {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #222;
+  font-weight: 800;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #222;
+  letter-spacing: -1px;
+}
+
+/* 사이드바 영역  */
+.searchFn {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* 간격 조정 */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* 카테고리 영역  */
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 카테고리 버튼 */
+.category > button {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #555;
+  border: 1px solid #eee;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+.category > button:hover {
+  background-color: #fa2828;
+  color: white;
+  border-color: #fa2828;
+}
+
+/* 정렬 영역 컨테이너 */
+.sort {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* 정렬 버튼 헤더 */
+.sortHeader {
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 15px;
+  font-size: 14px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.sortHeader:hover {
+  background-color: #222;
+  color: white;
+}
+
+/* 정렬 버튼 텍스트 리스트 */
+.sortLabel {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.sortHeader i {
+  color: #999;
+  flex-shrink: 0;
+  transition: color 0.3s;
+}
+.sortHeader:hover i {
+  color: white;
+}
+
+.sort ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 20px;
+  z-index: 100;
+  margin-top: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* 상품 리스트 영역 */
+
+.productList {
+  flex: 1;
+}
+
+.list {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* 검색 폼 스타일 */
+.searchForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 4px 6px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 8px 5px;
+  font-size: 15px;
+  color: #555;
+}
+
+.searchBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  font-size: 16px;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.searchBtn:hover {
+  color: #fa2828;
+}
+
+/* 반응형 */
+@media (max-width: 1200px) {
+  .list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .musicalsPage {
+    flex-direction: column;
+  }
+  .searchFn {
+    width: 100%;
+    /* 모바일에서는 사이드바가 상단 필터로 변환됨 */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: none;
+    margin-bottom: 20px;
+    gap: 20px;
+    /* 모바일에서는 검색창과 카테고리가 가로로 나열됩니다. */
+    flex-wrap: wrap;
+  }
+
+  .category {
+    /* 모바일 필터 버튼들을 가로로 배열 */
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

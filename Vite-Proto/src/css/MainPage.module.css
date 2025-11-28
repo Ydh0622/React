@@ -1,0 +1,124 @@
+/* 로딩 중 스타일 */
+.loading {
+  padding: 80px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #fa2828;
+}
+
+/* 공연 리스트 섹션 */
+.productSection {
+  margin-top: 80px;
+  padding-bottom: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 섹션 헤더  */
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  width: 100%;
+  margin: 0 auto 30px auto;
+  border-bottom: 2px solid #222;
+  padding-bottom: 15px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* 섹션 타이틀 */
+.sectionTitle {
+  text-align: start;
+  font-size: 28px;
+  font-weight: 800;
+  color: #222;
+
+  border-left: 5px solid #fa2828;
+  padding-left: 15px;
+  line-height: 1;
+}
+
+/* View All 링크 */
+.viewAllLink {
+  font-size: 15px;
+  color: #888;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.viewAllLink:hover {
+  color: #222;
+}
+
+/* Swiper 슬라이더 래퍼 */
+.swiperWrapper {
+  max-width: 100%;
+  margin: 0 auto;
+
+  padding: 0 40px;
+  position: relative;
+}
+
+/* 슬라이드 아이템 */
+.slideItem {
+  padding: 10px 5px 20px 5px;
+  height: auto;
+}
+
+/* [ Swiper 화살표 커스텀 */
+.listSwiper :global(.swiper-button-next),
+.listSwiper :global(.swiper-button-prev) {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+  width: 60px;
+  height: 60px;
+  top: 35%;
+  margin-top: 0;
+  opacity: 0.8;
+  color: #222;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 화살표 아이콘 모양 및 크기 */
+.listSwiper :global(.swiper-button-next):after,
+.listSwiper :global(.swiper-button-prev):after {
+  font-size: 20px;
+  font-weight: 900;
+  text-shadow: none;
+}
+
+/* 화살표 호버 효과 */
+.listSwiper :global(.swiper-button-next):hover,
+.listSwiper :global(.swiper-button-prev):hover {
+  opacity: 1;
+  color: #fa2828;
+  transform: scale(1.05);
+  background-color: #fff;
+}
+
+/* ( */
+.listSwiper :global(.swiper-button-prev) {
+  left: -20px;
+}
+.listSwiper :global(.swiper-button-next) {
+  right: -20px;
+}
+
+/* 공연이 없을 때 메시지 */
+.noProduct {
+  text-align: center;
+  padding: 80px 0;
+  font-size: 16px;
+  color: #999;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  max-width: 1200px;
+  margin: 0 auto;
+}
