@@ -1,0 +1,59 @@
+.notContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  text-align: center;
+  padding: var(--fs20);
+}
+
+.content {
+  max-width: 600px;
+}
+
+/* 404 텍스트 */
+.errorCode {
+  font-size: 120px;
+  font-weight: 900;
+  color: var(--dark-colors-accent-dark);
+  line-height: 1;
+  margin-bottom: var(--fs20);
+  opacity: 0.5;
+  letter-spacing: 5px;
+}
+
+/* 페이지 제목 */
+.title {
+  font-size: var(--fs26);
+  font-weight: 600;
+  color: var(--dark-colors-gray-dark);
+  margin-bottom: var(--fs20);
+}
+
+/* 설명 텍스트 */
+.desc {
+  font-size: var(--fs16);
+  color: var(--light-colors-dark-gray-light);
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+/* 홈으로 돌아가기 버튼 */
+.homeBtn {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: var(--dark-colors-gray-dark);
+  color: var(--light-colors-white-light);
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: var(--fs16);
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.homeBtn:hover {
+  background-color: var(--dark-colors-accent-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}

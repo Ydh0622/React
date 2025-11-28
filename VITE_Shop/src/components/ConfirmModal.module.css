@@ -1,0 +1,86 @@
+/* 배경 오버레이 */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  backdrop-filter: blur(2px);
+}
+
+/* 모달 박스 */
+.modalBox {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 300px;
+  animation: popUp 0.3s ease forwards;
+}
+
+@keyframes popUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* 메시지 텍스트 */
+.message {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+/* 버튼 그룹 */
+.btnGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* 버튼 공통 스타일 */
+.btnGroup button {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+/* 취소 버튼 */
+.cancelBtn {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #777;
+}
+
+.cancelBtn:hover {
+  background-color: #f9f9f9;
+  border-color: #ccc;
+}
+
+/* 삭제 버튼 */
+.deleteBtn {
+  background-color: #b4a186;
+  border: 1px solid #b4a186;
+  color: #fff;
+}
+
+.deleteBtn:hover {
+  background-color: #a37c58;
+  border-color: #a37c58;
+}

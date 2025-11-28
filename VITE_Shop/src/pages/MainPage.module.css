@@ -1,0 +1,59 @@
+/* 로딩 중 스타일 */
+.loading {
+  padding: 40px;
+  text-align: center;
+}
+
+/* 상품 리스트 섹션 */
+.productSection {
+  /* 좌우 패딩은 main (index.html)에서 관리되므로 생략  */
+  padding: 40px 0;
+}
+
+/* 섹션 헤더 신상품 + 뷰 올 */
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* 섹션 타이틀 */
+.sectionTitle {
+  text-align: start;
+  font-size: 32px;
+  color: #b4a186;
+}
+
+/* View All 링크 */
+.viewAllLink {
+  font-size: 16px;
+  color: #b4a186;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.viewAllLink:hover {
+  color: #9a9a9a;
+}
+
+/* 상품 목록 레이아웃 그리드 */
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 상품이 없을 때 메시지 */
+.noProduct {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #777;
+}
