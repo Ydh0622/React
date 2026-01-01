@@ -1,0 +1,42 @@
+/* 전체 컨테이너 */
+.similarContainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 60px 40px;
+  border-top: 1px solid #030303;
+}
+
+/* 제목 */
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* 상품 리스트 그리드 */
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .similarContainer {
+    margin-top: 40px;
+    padding: 40px 20px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .productList {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}

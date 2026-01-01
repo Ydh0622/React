@@ -1,0 +1,937 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "지킬 앤 하이드",
+      "img": "image1.jpg",
+      "date": "2025.03.10 ~ 2025.06.10",
+      "place": "블루스퀘어 신한카드홀",
+      "price": 160000,
+      "discount": 10
+    },
+    {
+      "id": "2",
+      "title": "오페라의 유령",
+      "img": "image2.jpg",
+      "date": "2025.04.01 ~ 2025.07.30",
+      "place": "샤롯데씨어터",
+      "price": 150000,
+      "discount": 5
+    },
+    {
+      "id": "3",
+      "title": "시카고",
+      "img": "image3.jpg",
+      "date": "2025.05.15 ~ 2025.08.20",
+      "place": "디큐브 링크아트센터",
+      "price": 140000,
+      "discount": 20
+    },
+    {
+      "id": "4",
+      "title": "위키드",
+      "img": "image4.jpg",
+      "date": "2025.02.10 ~ 2025.05.10",
+      "place": "예술의전당 오페라극장",
+      "price": 170000,
+      "discount": 15
+    },
+    {
+      "id": "5",
+      "title": "킹키부츠",
+      "img": "image5.jpg",
+      "date": "2025.06.01 ~ 2025.09.01",
+      "place": "충무아트센터 대극장",
+      "price": 130000,
+      "discount": 10
+    },
+    {
+      "id": "6",
+      "title": "맘마미아",
+      "img": "image6.jpg",
+      "date": "2025.03.20 ~ 2025.06.30",
+      "place": "세종문화회관 대극장",
+      "price": 120000,
+      "discount": 30
+    },
+    {
+      "id": "7",
+      "title": "레베카",
+      "img": "image7.jpg",
+      "date": "2025.08.01 ~ 2025.11.15",
+      "place": "블루스퀘어 신한카드홀",
+      "price": 160000,
+      "discount": 5
+    },
+    {
+      "id": "8",
+      "title": "하데스타운",
+      "img": "image8.jpg",
+      "date": "2025.07.10 ~ 2025.10.10",
+      "place": "샤롯데씨어터",
+      "price": 150000,
+      "discount": 25
+    },
+    {
+      "id": "9",
+      "title": "웃는 남자",
+      "img": "image9.jpg",
+      "date": "2025.01.15 ~ 2025.04.15",
+      "place": "예술의전당 오페라극장",
+      "price": 160000,
+      "discount": 10
+    },
+    {
+      "id": "10",
+      "title": "영웅",
+      "img": "image10.jpg",
+      "date": "2025.05.05 ~ 2025.08.15",
+      "place": "세종문화회관 대극장",
+      "price": 140000,
+      "discount": 20
+    },
+    {
+      "id": "11",
+      "title": "드라큘라",
+      "img": "image11.jpg",
+      "date": "2025.09.01 ~ 2025.12.31",
+      "place": "블루스퀘어 신한카드홀",
+      "price": 150000,
+      "discount": 15
+    },
+    {
+      "id": "12",
+      "title": "프랑켄슈타인",
+      "img": "image12.jpg",
+      "date": "2025.04.10 ~ 2025.07.10",
+      "place": "블루스퀘어 신한카드홀",
+      "price": 160000,
+      "discount": 5
+    },
+    {
+      "id": "13",
+      "title": "데스노트",
+      "img": "image13.jpg",
+      "date": "2025.02.20 ~ 2025.05.20",
+      "place": "예술의전당 오페라극장",
+      "price": 150000,
+      "discount": 30
+    },
+    {
+      "id": "14",
+      "title": "엘리자벳",
+      "img": "image13.jpg",
+      "date": "2025.06.15 ~ 2025.09.15",
+      "place": "블루스퀘어 신한카드홀",
+      "price": 170000,
+      "discount": 10
+    },
+    {
+      "id": "15",
+      "title": "모차르트!",
+      "img": "image13.jpg",
+      "date": "2025.05.01 ~ 2025.08.01",
+      "place": "세종문화회관 대극장",
+      "price": 160000,
+      "discount": 20
+    },
+    {
+      "id": "16",
+      "title": "스위니 토드",
+      "img": "image13.jpg",
+      "date": "2025.10.01 ~ 2026.01.15",
+      "place": "샤롯데씨어터",
+      "price": 150000,
+      "discount": 15
+    },
+    {
+      "id": "17",
+      "title": "맨 오브 라만차",
+      "img": "image13.jpg",
+      "date": "2025.03.15 ~ 2025.06.15",
+      "place": "충무아트센터 대극장",
+      "price": 140000,
+      "discount": 25
+    },
+    {
+      "id": "18",
+      "title": "캣츠",
+      "img": "image13.jpg",
+      "date": "2025.11.01 ~ 2026.02.28",
+      "place": "세종문화회관 대극장",
+      "price": 160000,
+      "discount": 10
+    },
+    {
+      "id": "19",
+      "title": "빨래",
+      "img": "image13.jpg",
+      "date": "2025.01.01 ~ 2025.12.31",
+      "place": "대학로 유니플렉스",
+      "price": 66000,
+      "discount": 30
+    },
+    {
+      "id": "20",
+      "title": "여신님이 보고 계셔",
+      "img": "image13.jpg",
+      "date": "2025.04.20 ~ 2025.07.20",
+      "place": "대학로 유니플렉스",
+      "price": 77000,
+      "discount": 20
+    },
+    {
+      "id": "21",
+      "title": "아이다",
+      "img": "image13.jpg",
+      "date": "2025.07.01 ~ 2025.10.30",
+      "place": "블루스퀘어 신한카드홀",
+      "price": 150000,
+      "discount": 15
+    },
+    {
+      "id": "22",
+      "title": "빌리 엘리어트",
+      "img": "image13.jpg",
+      "date": "2025.08.10 ~ 2025.11.30",
+      "place": "디큐브 링크아트센터",
+      "price": 140000,
+      "discount": 5
+    },
+    {
+      "id": "23",
+      "title": "마틸다",
+      "img": "image13.jpg",
+      "date": "2025.09.15 ~ 2025.12.15",
+      "place": "LG아트센터 서울",
+      "price": 130000,
+      "discount": 10
+    },
+    {
+      "id": "24",
+      "title": "라이온 킹",
+      "img": "image13.jpg",
+      "date": "2025.01.10 ~ 2025.04.30",
+      "place": "예술의전당 오페라극장",
+      "price": 180000,
+      "discount": 25
+    },
+    {
+      "id": "25",
+      "title": "렌트",
+      "img": "image13.jpg",
+      "date": "2025.06.01 ~ 2025.08.31",
+      "place": "코엑스 신한카드 아티움",
+      "price": 120000,
+      "discount": 20
+    },
+    {
+      "id": "26",
+      "title": "헤드윅",
+      "img": "image13.jpg",
+      "date": "2025.03.01 ~ 2025.06.30",
+      "place": "충무아트센터 대극장",
+      "price": 130000,
+      "discount": 15
+    },
+    {
+      "id": "27",
+      "title": "그리스",
+      "img": "image13.jpg",
+      "date": "2025.05.01 ~ 2025.08.31",
+      "place": "디큐브 링크아트센터",
+      "price": 110000,
+      "discount": 30
+    },
+    {
+      "id": "28",
+      "title": "브로드웨이 42번가",
+      "img": "image13.jpg",
+      "date": "2025.10.10 ~ 2026.01.10",
+      "place": "예술의전당 CJ 토월극장",
+      "price": 140000,
+      "discount": 10
+    },
+    {
+      "id": "29",
+      "title": "썸씽로튼",
+      "img": "image13.jpg",
+      "date": "2025.02.15 ~ 2025.05.15",
+      "place": "유니버설아트센터",
+      "price": 120000,
+      "discount": 5
+    },
+    {
+      "id": "30",
+      "title": "엑스칼리버",
+      "img": "image13.jpg",
+      "date": "2025.06.20 ~ 2025.09.20",
+      "place": "세종문화회관 대극장",
+      "price": 150000,
+      "discount": 20
+    },
+    {
+      "id": "31",
+      "title": "베르테르",
+      "img": "image13.jpg",
+      "date": "2025.08.25 ~ 2025.11.25",
+      "place": "광림아트센터 BBCH홀",
+      "price": 130000,
+      "discount": 15
+    },
+    {
+      "id": "32",
+      "title": "서편제",
+      "img": "image13.jpg",
+      "date": "2025.09.10 ~ 2025.12.10",
+      "place": "광림아트센터 BBCH홀",
+      "price": 120000,
+      "discount": 25
+    },
+    {
+      "id": "33",
+      "title": "마리 앙투아네트",
+      "img": "image13.jpg",
+      "date": "2025.04.05 ~ 2025.07.05",
+      "place": "샤롯데씨어터",
+      "price": 150000,
+      "discount": 10
+    },
+    {
+      "id": "34",
+      "title": "팬텀",
+      "img": "image13.jpg",
+      "date": "2025.11.15 ~ 2026.02.15",
+      "place": "샤롯데씨어터",
+      "price": 160000,
+      "discount": 20
+    },
+    {
+      "id": "35",
+      "title": "몬테크리스토",
+      "img": "image13.jpg",
+      "date": "2025.01.20 ~ 2025.04.20",
+      "place": "충무아트센터 대극장",
+      "price": 150000,
+      "discount": 5
+    },
+    {
+      "id": "36",
+      "title": "노트르담 드 파리",
+      "img": "image13.jpg",
+      "date": "2025.02.25 ~ 2025.05.25",
+      "place": "세종문화회관 대극장",
+      "price": 170000,
+      "discount": 15
+    },
+    {
+      "id": "37",
+      "title": "삼총사",
+      "img": "image13.jpg",
+      "date": "2025.05.10 ~ 2025.08.10",
+      "place": "한전아트센터",
+      "price": 110000,
+      "discount": 30
+    },
+    {
+      "id": "38",
+      "title": "잭 더 리퍼",
+      "img": "image13.jpg",
+      "date": "2025.07.15 ~ 2025.10.15",
+      "place": "우리금융아트홀",
+      "price": 120000,
+      "discount": 10
+    },
+    {
+      "id": "39",
+      "title": "영웅본색",
+      "img": "image13.jpg",
+      "date": "2025.09.05 ~ 2025.12.05",
+      "place": "한전아트센터",
+      "price": 130000,
+      "discount": 20
+    },
+    {
+      "id": "40",
+      "title": "광화문 연가",
+      "img": "image13.jpg",
+      "date": "2025.10.20 ~ 2026.01.20",
+      "place": "예술의전당 오페라극장",
+      "price": 140000,
+      "discount": 5
+    },
+    {
+      "id": "41",
+      "title": "그날들",
+      "img": "image13.jpg",
+      "date": "2025.03.10 ~ 2025.06.10",
+      "place": "예술의전당 오페라극장",
+      "price": 150000,
+      "discount": 15
+    },
+    {
+      "id": "42",
+      "title": "명성황후",
+      "img": "image13.jpg",
+      "date": "2025.06.05 ~ 2025.09.05",
+      "place": "세종문화회관 대극장",
+      "price": 140000,
+      "discount": 25
+    },
+    {
+      "id": "43",
+      "title": "시라노",
+      "img": "image13.jpg",
+      "date": "2025.08.30 ~ 2025.11.30",
+      "place": "광림아트센터 BBCH홀",
+      "price": 130000,
+      "discount": 10
+    },
+    {
+      "id": "44",
+      "title": "보디가드",
+      "img": "image13.jpg",
+      "date": "2025.11.05 ~ 2026.02.05",
+      "place": "LG아트센터 서울",
+      "price": 140000,
+      "discount": 20
+    },
+    {
+      "id": "45",
+      "title": "미세스 다웃파이어",
+      "img": "image13.jpg",
+      "date": "2025.01.25 ~ 2025.04.25",
+      "place": "샤롯데씨어터",
+      "price": 130000,
+      "discount": 30
+    },
+    {
+      "id": "46",
+      "title": "물랑루즈",
+      "img": "image13.jpg",
+      "date": "2025.04.15 ~ 2025.08.15",
+      "place": "블루스퀘어 신한카드홀",
+      "price": 180000,
+      "discount": 5
+    },
+    {
+      "id": "47",
+      "title": "식스 더 뮤지컬",
+      "img": "image13.jpg",
+      "date": "2025.07.20 ~ 2025.10.20",
+      "place": "coex 신한카드 아티움",
+      "price": 120000,
+      "discount": 15
+    },
+    {
+      "id": "48",
+      "title": "비틀쥬스",
+      "img": "image13.jpg",
+      "date": "2025.10.25 ~ 2026.01.25",
+      "place": "세종문화회관 대극장",
+      "price": 140000,
+      "discount": 20
+    },
+    {
+      "id": "49",
+      "title": "마틸다",
+      "img": "image13.jpg",
+      "date": "2025.02.10 ~ 2025.05.10",
+      "place": "대성 디큐브아트센터",
+      "price": 130000,
+      "discount": 10
+    },
+    {
+      "id": "50",
+      "title": "스쿨 오브 락",
+      "img": "image13.jpg",
+      "date": "2025.05.20 ~ 2025.08.20",
+      "place": "예술의전당 오페라극장",
+      "price": 150000,
+      "discount": 25
+    },
+    {
+      "id": "51",
+      "title": "젠틀맨스 가이드",
+      "img": "image13.jpg",
+      "date": "2025.08.15 ~ 2025.11.15",
+      "place": "광림아트센터 BBCH홀",
+      "price": 130000,
+      "discount": 5
+    },
+    {
+      "id": "52",
+      "title": "빅 피쉬",
+      "img": "image13.jpg",
+      "date": "2025.11.10 ~ 2026.02.10",
+      "place": "예술의전당 CJ 토월극장",
+      "price": 120000,
+      "discount": 15
+    },
+    {
+      "id": "53",
+      "title": "안나 카레니나",
+      "img": "image13.jpg",
+      "date": "2025.01.30 ~ 2025.04.30",
+      "place": "블루스퀘어 신한카드홀",
+      "price": 140000,
+      "discount": 20
+    },
+    {
+      "id": "54",
+      "title": "닥터 지바고",
+      "img": "image13.jpg",
+      "date": "2025.04.25 ~ 2025.07.25",
+      "place": "샤롯데씨어터",
+      "price": 140000,
+      "discount": 10
+    },
+    {
+      "id": "55",
+      "title": "마타하리",
+      "img": "image13.jpg",
+      "date": "2025.07.30 ~ 2025.10.30",
+      "place": "샤롯데씨어터",
+      "price": 150000,
+      "discount": 30
+    },
+    {
+      "id": "56",
+      "title": "웃는 남자",
+      "img": "image13.jpg",
+      "date": "2025.10.15 ~ 2026.01.15",
+      "place": "세종문화회관 대극장",
+      "price": 160000,
+      "discount": 5
+    },
+    {
+      "id": "57",
+      "title": "벤허",
+      "img": "image13.jpg",
+      "date": "2025.03.05 ~ 2025.06.05",
+      "place": "LG아트센터 서울",
+      "price": 150000,
+      "discount": 15
+    },
+    {
+      "id": "58",
+      "title": "호프",
+      "img": "image13.jpg",
+      "date": "2025.06.10 ~ 2025.09.10",
+      "place": "대학로 유니플렉스",
+      "price": 88000,
+      "discount": 20
+    },
+    {
+      "id": "59",
+      "title": "팬레터",
+      "img": "image13.jpg",
+      "date": "2025.09.20 ~ 2025.12.20",
+      "place": "코엑스 아티움",
+      "price": 99000,
+      "discount": 25
+    },
+    {
+      "id": "60",
+      "title": "어쩌면 해피엔딩",
+      "img": "image13.jpg",
+      "date": "2025.12.01 ~ 2026.03.01",
+      "place": "예스24스테이지",
+      "price": 77000,
+      "discount": 10
+    },
+    {
+      "id": "61",
+      "title": "김종욱 찾기",
+      "img": "image13.jpg",
+      "date": "2025.01.01 ~ 2025.12.31",
+      "place": "대학로 컬처스페이스",
+      "price": 50000,
+      "discount": 5
+    },
+    {
+      "id": "62",
+      "title": "오! 당신이 잠든 사이",
+      "img": "image13.jpg",
+      "date": "2025.02.01 ~ 2025.05.01",
+      "place": "대학로 드림아트센터",
+      "price": 55000,
+      "discount": 15
+    },
+    {
+      "id": "63",
+      "title": "난쟁이들",
+      "img": "image13.jpg",
+      "date": "2025.05.15 ~ 2025.08.15",
+      "place": "플러스씨어터",
+      "price": 66000,
+      "discount": 20
+    },
+    {
+      "id": "64",
+      "title": "셜록홈즈",
+      "img": "image13.jpg",
+      "date": "2025.08.20 ~ 2025.11.20",
+      "place": "두산아트센터 연강홀",
+      "price": 77000,
+      "discount": 30
+    },
+    {
+      "id": "65",
+      "title": "라흐마니노프",
+      "img": "image13.jpg",
+      "date": "2025.11.25 ~ 2026.02.25",
+      "place": "예스24스테이지",
+      "price": 66000,
+      "discount": 10
+    },
+    {
+      "id": "66",
+      "title": "빈센트 반 고흐",
+      "img": "image13.jpg",
+      "date": "2025.01.10 ~ 2025.04.10",
+      "place": "예스24스테이지",
+      "price": 66000,
+      "discount": 25
+    },
+    {
+      "id": "67",
+      "title": "세종, 1446",
+      "img": "image13.jpg",
+      "date": "2025.04.15 ~ 2025.07.15",
+      "place": "국립중앙박물관 극장 용",
+      "price": 88000,
+      "discount": 5
+    },
+    {
+      "id": "68",
+      "title": "랭보",
+      "img": "image13.jpg",
+      "date": "2025.07.20 ~ 2025.10.20",
+      "place": "TOM 1관",
+      "price": 66000,
+      "discount": 15
+    },
+    {
+      "id": "69",
+      "title": "사의찬미",
+      "img": "image13.jpg",
+      "date": "2025.10.30 ~ 2026.01.30",
+      "place": "TOM 1관",
+      "price": 66000,
+      "discount": 20
+    },
+    {
+      "id": "70",
+      "title": "쓰릴 미",
+      "img": "image13.jpg",
+      "date": "2025.02.05 ~ 2025.05.05",
+      "place": "예스24스테이지",
+      "price": 60000,
+      "discount": 10
+    },
+    {
+      "id": "71",
+      "title": "미드나잇",
+      "img": "image13.jpg",
+      "date": "2025.05.10 ~ 2025.08.10",
+      "place": "예스24스테이지",
+      "price": 66000,
+      "discount": 30
+    },
+    {
+      "id": "72",
+      "title": "인터뷰",
+      "img": "image13.jpg",
+      "date": "2025.08.15 ~ 2025.11.15",
+      "place": "TOM 2관",
+      "price": 60000,
+      "discount": 5
+    },
+    {
+      "id": "73",
+      "title": "스모크",
+      "img": "image13.jpg",
+      "date": "2025.11.20 ~ 2026.02.20",
+      "place": "플러스씨어터",
+      "price": 66000,
+      "discount": 15
+    },
+    {
+      "id": "74",
+      "title": "블랙메리포핀스",
+      "img": "image13.jpg",
+      "date": "2025.01.20 ~ 2025.04.20",
+      "place": "대학로 아트원씨어터",
+      "price": 66000,
+      "discount": 20
+    },
+    {
+      "id": "75",
+      "title": "해적",
+      "img": "image13.jpg",
+      "date": "2025.04.30 ~ 2025.07.30",
+      "place": "서경대학교 공연예술센터",
+      "price": 66000,
+      "discount": 25
+    },
+    {
+      "id": "76",
+      "title": "전설의 리틀 농구단",
+      "img": "image13.jpg",
+      "date": "2025.08.05 ~ 2025.11.05",
+      "place": "동덕여대 공연예술센터",
+      "price": 60000,
+      "discount": 10
+    },
+    {
+      "id": "77",
+      "title": "렛미플라이",
+      "img": "image13.jpg",
+      "date": "2025.11.10 ~ 2026.02.10",
+      "place": "예스24스테이지",
+      "price": 66000,
+      "discount": 5
+    },
+    {
+      "id": "78",
+      "title": "쇼맨",
+      "img": "image13.jpg",
+      "date": "2025.02.15 ~ 2025.05.15",
+      "place": "국립정동극장",
+      "price": 70000,
+      "discount": 15
+    },
+    {
+      "id": "79",
+      "title": "레드북",
+      "img": "image13.jpg",
+      "date": "2025.06.01 ~ 2025.09.01",
+      "place": "홍익대 대학로 아트센터",
+      "price": 99000,
+      "discount": 20
+    },
+    {
+      "id": "80",
+      "title": "이프덴",
+      "img": "image13.jpg",
+      "date": "2025.09.10 ~ 2025.12.10",
+      "place": "홍익대 대학로 아트센터",
+      "price": 110000,
+      "discount": 30
+    },
+    {
+      "id": "81",
+      "title": "멤피스",
+      "img": "image13.jpg",
+      "date": "2025.12.15 ~ 2026.03.15",
+      "place": "충무아트센터 대극장",
+      "price": 160000,
+      "discount": 10
+    },
+    {
+      "id": "82",
+      "title": "렌트",
+      "img": "image13.jpg",
+      "date": "2025.03.20 ~ 2025.06.20",
+      "place": "코엑스 아티움",
+      "price": 120000,
+      "discount": 25
+    },
+    {
+      "id": "83",
+      "title": "고스트",
+      "img": "image13.jpg",
+      "date": "2025.07.01 ~ 2025.10.01",
+      "place": "디큐브 링크아트센터",
+      "price": 140000,
+      "discount": 5
+    },
+    {
+      "id": "84",
+      "title": "원스",
+      "img": "image13.jpg",
+      "date": "2025.10.05 ~ 2026.01.05",
+      "place": "예술의전당 CJ 토월극장",
+      "price": 130000,
+      "discount": 15
+    },
+    {
+      "id": "85",
+      "title": "에어포트 베이비",
+      "img": "image13.jpg",
+      "date": "2025.01.15 ~ 2025.03.15",
+      "place": "신한pLay 스퀘어",
+      "price": 66000,
+      "discount": 20
+    },
+    {
+      "id": "86",
+      "title": "스토리 오브 마이 라이프",
+      "img": "image13.jpg",
+      "date": "2025.11.01 ~ 2026.02.01",
+      "place": "백암아트홀",
+      "price": 77000,
+      "discount": 10
+    },
+    {
+      "id": "87",
+      "title": "키다리 아저씨",
+      "img": "image13.jpg",
+      "date": "2025.04.10 ~ 2025.07.10",
+      "place": "링크아트센터 벅스홀",
+      "price": 66000,
+      "discount": 30
+    },
+    {
+      "id": "88",
+      "title": "톡톡",
+      "img": "image13.jpg",
+      "date": "2025.07.20 ~ 2025.10.20",
+      "place": "대학로 티오엠",
+      "price": 55000,
+      "discount": 5
+    },
+    {
+      "id": "89",
+      "title": "렁스",
+      "img": "image13.jpg",
+      "date": "2025.10.25 ~ 2026.01.25",
+      "place": "대학로 아트원씨어터",
+      "price": 60000,
+      "discount": 15
+    },
+    {
+      "id": "90",
+      "title": "오만과 편견",
+      "img": "image13.jpg",
+      "date": "2025.01.05 ~ 2025.04.05",
+      "place": "예스24스테이지",
+      "price": 55000,
+      "discount": 20
+    },
+    {
+      "id": "91",
+      "title": "라스트 세션",
+      "img": "image13.jpg",
+      "date": "2025.04.10 ~ 2025.06.10",
+      "place": "대학로 TOM",
+      "price": 60000,
+      "discount": 25
+    },
+    {
+      "id": "92",
+      "title": "아트",
+      "img": "image13.jpg",
+      "date": "2025.07.15 ~ 2025.10.15",
+      "place": "링크아트센터",
+      "price": 66000,
+      "discount": 10
+    },
+    {
+      "id": "93",
+      "title": "지구를 지켜라",
+      "img": "image13.jpg",
+      "date": "2025.10.20 ~ 2026.01.20",
+      "place": "충무아트센터 중극장",
+      "price": 66000,
+      "discount": 5
+    },
+    {
+      "id": "94",
+      "title": "시티오브엔젤",
+      "img": "image13.jpg",
+      "date": "2025.02.01 ~ 2025.05.01",
+      "place": "충무아트센터 대극장",
+      "price": 140000,
+      "discount": 15
+    },
+    {
+      "id": "95",
+      "title": "빅",
+      "img": "image13.jpg",
+      "date": "2025.05.05 ~ 2025.08.05",
+      "place": "예술의전당 CJ 토월극장",
+      "price": 130000,
+      "discount": 20
+    },
+    {
+      "id": "96",
+      "title": "애니",
+      "img": "image13.jpg",
+      "date": "2025.12.01 ~ 2026.01.31",
+      "place": "세종문화회관 대극장",
+      "price": 90000,
+      "discount": 30
+    },
+    {
+      "id": "97",
+      "title": "듀엣",
+      "img": "image13.jpg",
+      "date": "2025.03.15 ~ 2025.06.15",
+      "place": "KT&G 상상마당 대치",
+      "price": 88000,
+      "discount": 10
+    },
+    {
+      "id": "98",
+      "title": "아이러브유",
+      "img": "image13.jpg",
+      "date": "2025.06.20 ~ 2025.09.20",
+      "place": "대학로 아트원씨어터",
+      "price": 60000,
+      "discount": 25
+    },
+    {
+      "id": "99",
+      "title": "번지점프를 하다",
+      "img": "image13.jpg",
+      "date": "2025.09.25 ~ 2025.12.25",
+      "place": "홍익대 대학로 아트센터",
+      "price": 88000,
+      "discount": 5
+    },
+    {
+      "id": "100",
+      "title": "서른즈음에",
+      "img": "image13.jpg",
+      "date": "2025.11.01 ~ 2026.02.01",
+      "place": "이화여대 삼성홀",
+      "price": 77000,
+      "discount": 15
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "img": "/public/img/Img_bg1.jpg",
+      "title": "이벤트 제목1",
+      "description": "1배너 리스트 영역의 배너 상세 내용이 들어갑니다.",
+      "link": "/musicals"
+    },
+    {
+      "id": "2",
+      "img": "/public/img/Img_bg2.jpg",
+      "title": "이벤트 제목2",
+      "description": "22배너 리스트 영역의 배너 상세 내용이 들어갑니다.",
+      "link": "/musicals"
+    },
+    {
+      "id": "3",
+      "img": "/public/img/Img_bg3.jpg",
+      "title": "이벤트 제목2",
+      "description": "333배너 리스트 영역의 배너 상세 내용이 들어갑니다.",
+      "link": "/musicals"
+    }
+  ],
+  "cart": [
+    {
+      "id": "4",
+      "title": "위키드",
+      "img": "image4.jpg",
+      "price": 170000,
+      "discount": 15,
+      "count": 4
+    }
+  ]
+}
