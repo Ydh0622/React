@@ -1,0 +1,73 @@
+/* 로딩 중 스타일 */
+.loading {
+  padding: 80px 0; /* 여백을 좀 더 넉넉하게 */
+  text-align: center;
+  font-weight: bold;
+  color: #fa2828; /* 로딩 문구도 포인트 컬러로 */
+}
+
+/* 공연 리스트 섹션 */
+.productSection {
+  /* 상단 배너와 너무 붙지 않도록 위쪽 여백 추가 */
+  margin-top: 80px;
+  padding-bottom: 60px;
+}
+
+/* 섹션 헤더 (타이틀 + 전체보기) */
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /* 텍스트 바닥 라인 맞춤 */
+  margin-bottom: 30px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 30px auto; /* 중앙 정렬 및 아래 여백 */
+  border-bottom: 2px solid #222; /* 헤더 아래 밑줄 하나로 깔끔하게 정리 */
+  padding-bottom: 15px;
+}
+
+/* 섹션 타이틀 */
+.sectionTitle {
+  text-align: start;
+  font-size: 28px; /* 너무 크지 않게 적당히 */
+  font-weight: 800; /* 두껍게 */
+  color: #222; /* 진한 검정 (가독성) */
+
+  /* 심플한 포인트: 왼쪽에 빨간 막대 하나 추가 */
+  border-left: 5px solid #fa2828;
+  padding-left: 15px;
+  line-height: 1;
+}
+
+/* View All 링크 */
+.viewAllLink {
+  font-size: 15px;
+  color: #888; /* 평소엔 회색 */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.viewAllLink:hover {
+  color: #222; /* 마우스 올리면 검정 */
+}
+
+/* 공연 포스터 그리드 */
+.productGrid {
+  display: grid;
+  /* 포스터는 세로로 기니까 너비를 조금 줄임 (300px -> 240px) */
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px; /* 간격 시원하게 */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 공연이 없을 때 메시지 */
+.noProduct {
+  text-align: center;
+  padding: 60px;
+  font-size: 16px;
+  color: #999;
+  background-color: #fff;
+  border-radius: 8px;
+}
