@@ -1,0 +1,183 @@
+/* body {
+  background-color: #282c34;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+} */
+
+.travel-planner-container {
+  background-color: #282c34;
+  color: #f0f0f0;
+  width: 100%;
+  /* 최대 너비 설정 */
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  /* auto를 넣으면 중앙 정렬이 됨 */
+  margin: 20px auto;
+  /* 그림자 추가로 컴포넌틑 경계 강조 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* 헤더 / 로고 영역 */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.logo-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  /* font-size: 20px; */
+  font-weight: bold;
+  color: skyblue;
+}
+
+/*  Input 영역 */
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex-grow: 1;
+  padding: 12px;
+  background-color: #444;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  /* outline: none; */
+}
+
+.input-field::placeholder {
+  /* color: #f0f0f0; */
+}
+
+.add-button {
+  padding: 12px 20px;
+  background-color: skyblue;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.3s;
+
+  /* 아이콘 넣으실 분들 */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-button:hover {
+  background-color: beige;
+}
+
+/* 토탈 영역 */
+.total-count-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.total-label {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.total-count {
+  font-size: 14px;
+  color: #aaa;
+  font-weight: bold;
+}
+
+/* 리스트 영역 */
+/* .list-area {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+} */
+
+/* 버츄얼 <List> 적용 리스트 영역  */
+
+.list-area {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #333;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.list-area::-webkit-scrollbar,
+.list-area > div::-webkit-scrollbar,
+.list-area *::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.list-time-text {
+  cursor: pointer;
+}
+
+.strikethrough {
+  /* 취소선 */
+  text-decoration: line-through;
+  color: #999;
+  /* 글꼴 기울이기 */
+  font-style: italic;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.delete-button:hover {
+  color: red;
+}
+
+.empty-message {
+  text-align: center;
+  color: #aaa;
+  margin-top: 50px;
+}
